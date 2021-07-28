@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Weather Dashboard</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">    
+	
+	<link href="./assets/css/bootstrap.min.css" rel="stylesheet">	
+    <link href="./assets/css/style.css" rel="stylesheet">	
+	
+	
+  </head>
+  <body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="dashboard_heading">
+                    Weather Dashboard
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                    	<label class="search_label">Search for a City:</label>
+                        <input id="txtSearch" class="form-control form-group" type="text">
+                        <a href="#" id="btnSearchBox" class="btn btn-block btn-primary search_btn" >Search</a>
+                    	<div class=" gray_bot_line"></div>
+						<div id="cityHistory">						
+							
+						</div>
+                    </div>
+                    <div class="col-lg-9 col-md-8">
+                        <div class="border_box">
+                        	<div class="box_heading" id="cityAndDate"></div>
+                            <p>Temp: <span id="temperature"></span>&deg;F</p>
+                            <p>Wind: <span id="wind"></span> MPH</p>
+                            <p>Humidity: <span id="humidity"></span>%</p>
+                            <p>UV Index: <span id="uvIndex" class="label_color"></span></p>
+							<p>Time: <span id="time"></span></p>
+							<input id="lon" type="hidden" />
+							<input id="lat" type="hidden" />
+                        </div>
+                        <h5 class="font-weight-bold">5-Day Forecast:</h5>	
+						<ul class="dark_blue_box" id="forecast" >							
+							
+						</ul>
+                    </div>
+                </div>
+       		</div>
+        </div>
+    </div>	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>	
+	<script src="./assets/js/scripts.js"></script>	
+	<script src="https://momentjs.com/downloads/moment.js"></script>
+
+  </body>
+</html>
+
