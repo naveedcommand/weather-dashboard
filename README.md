@@ -1,4 +1,4 @@
-# weather-dashboard
+# Weather Dashboard
 
 ## Purpose
 This site allows you to Enter a City name and it looks up its Current weather and 5 day forecast
