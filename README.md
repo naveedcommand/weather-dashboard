@@ -18,5 +18,8 @@ It uses the openweathermap.org api to fetch a Cities weather.
 ## Website
 https://naveedcommand.github.io/weather-dashboard/
 
+## Screen shot
+![Alt text](./assets/images/Weather.jpg?raw=true "Weather Dashboard")
+
 ## Contribution
 Made by Naveed
